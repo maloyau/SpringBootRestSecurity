@@ -1,7 +1,5 @@
-package com.serhii.springbootrestsecurity;
+package com.serhii.springbootrestsecurity.entity;
 
-import com.serhii.springbootrestsecurity.entity.Role;
-import com.serhii.springbootrestsecurity.entity.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

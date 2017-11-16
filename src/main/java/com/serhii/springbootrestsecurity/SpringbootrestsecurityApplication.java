@@ -1,5 +1,6 @@
 package com.serhii.springbootrestsecurity;
 
+import com.serhii.springbootrestsecurity.entity.CustomUserDetails;
 import com.serhii.springbootrestsecurity.entity.Role;
 import com.serhii.springbootrestsecurity.entity.User;
 import com.serhii.springbootrestsecurity.repository.UserRepository;
@@ -7,9 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
 import java.util.Arrays;
 import java.util.HashSet;
